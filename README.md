@@ -7,6 +7,13 @@
 
 **Impact:** Delivers a weekly automated report of in-demand titles to help Collection Development Librarians quickly respond to customer demand and easily assess and optimize inventory levels.
 
+## Features and Deliverables
+
+**Automated Email:**
+
+<img width="489" height="605" alt="Adult High Ratio Email" src="https://github.com/user-attachments/assets/b1622850-9d7d-436e-9c0c-18a92f2f79c4" />
+
+
 ## Data Pipeline Architecture
 This repository features an automated data pipeline that generates, formats, and distributes Excel reports via email. The system integrates Windows Task Scheduler, a Batch script, SQL, and Python to handle the end-to-end workflow without manual intervention. The automated process is fully productionized within a Windows environment.
 
