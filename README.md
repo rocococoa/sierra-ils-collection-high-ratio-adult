@@ -9,7 +9,11 @@
 
 ## Features and Deliverables
 
-**Excel Report:**
+**Automated Email:**
+
+<img width="489" height="605" alt="Adult High Ratio Email" src="https://github.com/user-attachments/assets/b1622850-9d7d-436e-9c0c-18a92f2f79c4" />
+
+**Attached Excel Report:**
 <img width="1464" height="880" alt="High Ratio Adult" src="https://github.com/user-attachments/assets/15c7a5f3-031f-4157-b8ca-39d3687013cf" />
 
 Beyond identifying titles with a 4:1 hold-to-item ratio or holds on titles zero holdable copies, the report streamlines decision-making by including:
@@ -19,12 +23,7 @@ Beyond identifying titles with a 4:1 hold-to-item ratio or holds on titles zero 
 - Pending orders: Shows how many orders have already been placed and are awaiting fulfillment.
 - Billed item data: Flags when an item has been billed, and includes circ data for the item.
 
-
 <img width="1466" height="887" alt="High-Ratio-Adult" src="https://github.com/user-attachments/assets/ad1334a0-2f85-4951-888a-c7b2609ad501" />
-
-**Automated Email:**
-
-<img width="489" height="605" alt="Adult High Ratio Email" src="https://github.com/user-attachments/assets/b1622850-9d7d-436e-9c0c-18a92f2f79c4" />
 
 ## Data Pipeline Architecture
 This repository features an automated data pipeline that generates, formats, and distributes Excel reports via email. The system integrates Windows Task Scheduler, a Batch script, SQL, and Python to handle the end-to-end workflow without manual intervention. The automated process is fully productionized within a Windows environment.
